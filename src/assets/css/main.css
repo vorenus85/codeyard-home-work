@@ -2,23 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400,600&display=swap');
 @import 'primeflex/primeflex.scss';
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
-}
-
 body {
   min-height: 100vh;
   line-height: 1.6;
-  font-family:
-    'Open Sans',
-    -apple-system,
-    sans-serif;
+  font-family: -apple-system, system-ui, sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f7f7f7;
 }
+

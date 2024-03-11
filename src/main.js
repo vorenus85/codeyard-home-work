@@ -1,6 +1,7 @@
 import './assets/css/main.css'
+import 'primeicons/primeicons.css'
 import 'primevue/resources/themes/aura-light-blue/theme.css'
-// import './assets/scss/theme.scss'
+import './assets/scss/theme.scss'
 
 import { createApp } from 'vue'
 import App from './App.vue'
